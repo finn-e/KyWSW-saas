@@ -2,62 +2,50 @@ title: Pricing
 description: Choose the plan that's right for you.
 navigation.icon: i-heroicons-credit-card
 hero:
-  title: A plan for every need
-  description: Our plans are designed to meet the requirements of both beginners and players. Get the right plan that suits you.
+  title: A donation for every budget
+  description: Our donation plans are designed to meet the requirements of both beginners and long-time donors. Get the right donation plan that suits you.
   align: center
 plans:
   - title: Basic
     description: A basic plan for individuals.
     price:
-      month: $9.9
-      year: $99.9
+      month: $1
+      year: $10
     align: top
     button:
       label: Get Started
       color: white
     features:
-      - 1 GB Storage
-      - 1 Email Account
-      - 1 Domain
-      - 1 Website
-      - 1 Database
-      - 1 SSL Certificate
-      - 1 Support Ticket
+        - Name on Donor Page
+        - Some other small benefit
+        - Mentioned at bottom of newsletter
+        - Free training
   - title: Standard
     description: A standard plan for small teams.
     price:
-      month: $19.9
-      year: $199.9
+      month: $5
+      year: $50
     highlight: true
     align: top
     button:
       label: Get Started
       color: black
     features:
-      - 10 GB Storage
-      - 10 Email Accounts
-      - 10 Domains
-      - 10 Websites
-      - 10 Databases
-      - 10 SSL Certificates
-      - 10 Support Tickets
+        - Everything from Basic
+        - Name on banner at trainings
+        - Name on plaque at hubs
   - title: Premium
     description: A premium plan for large teams.
     price:
-      month: $29.9
-      year: $299.9
+      month: $10
+      year: $100
     align: top
     button:
       label: Get Started
       color: white
     features:
-      - 100 GB Storage
-      - 100 Email Accounts
-      - 100 Domains
-      - 100 Websites
-      - 100 Databases
-      - 100 SSL Certificates
-      - 100 Support Tickets
+        - Everything from Standard
+        - T-Shirt
 logos:
   title: Trusted by the world's best
   icons:
@@ -75,8 +63,6 @@ faq:
       defaultOpen: true
     - label: How can I cancel my subscription?
       content: Consectetur irure Lorem nostrud adipisicing aliqua mollit Lorem sit officia magna eiusmod cupidatat.
-    - label: How does the free trial work?
-      content: Quis officia commodo magna eu qui aliquip duis.
     - label: Can I switch plans later?
       content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
     - label: Do you offer refunds?

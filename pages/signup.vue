@@ -31,12 +31,21 @@ const validate = (state: any) => {
   return errors
 }
 
-const providers = [{
-  label: 'Continue with GitHub',
-  icon: 'i-simple-icons-github',
-  color: 'gray' as const,
+const providers = [
+{
+  label: 'Continue with Google',
+  icon: 'i-simple-icons-google',
+  color: 'white' as const,
   click: () => {
-    console.log('Redirect to GitHub')
+    console.log('Redirect to Google')
+  }
+},
+{
+  label: 'Continue with Facebook',
+  icon: 'i-simple-icons-facebook',
+  color: 'white' as const,
+  click: () => {
+    console.log('Redirect to Facebook')
   }
 }]
 

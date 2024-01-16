@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import type { NavItem } from '@nuxt/content/dist/runtime/types'
+import type { NavItem } from '@nuxt/content/dist/runtime/types';
 
 const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
 
 const links = [{
-  label: 'Docs',
+  label: 'Sampling',
   to: '/docs'
 }, {
-  label: 'Pricing',
-  to: '/pricing'
+  label: 'Donations',
+  to: '/donations'
 }, {
   label: 'Blog',
   to: '/blog'
@@ -18,7 +18,7 @@ const links = [{
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge label="SaaS" variant="subtle" class="mb-0.5" />
+      KyWSW <UBadge label="Kentucky Watershed Watch" variant="subtle" class="mb-0.5" />
     </template>
 
     <template #right>
